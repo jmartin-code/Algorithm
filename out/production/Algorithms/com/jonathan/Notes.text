@@ -1,0 +1,3 @@
+Java Algorithm Notes
+
+Insertion, bubble and selection sorts are all quadratic. O(n2)
