@@ -1,3 +1,6 @@
 Java Algorithm Notes
 
-Insertion, bubble and selection sorts are all quadratic. O(n2)
+-Insertion, bubble and selection sorts are all quadratic. O(n2)
+-Merge sort: divide the array into 2 multiple times until each array element is by itself. Then sort and merge elements.
+-Quick Sort: Use a pivot element and divide the array based on the pivot value. Items lower than pivot go to left and
+elements more than pivot go right
