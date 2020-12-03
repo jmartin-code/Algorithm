@@ -1,9 +1,10 @@
 package com.jonathan;
 
-public class RecursiveFactorial {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
-    public RecursiveFactorial() {
-    }
+public class RecursiveFactorial {
 
     //Recursive Factorial method
     public int recursiveFactorial (int num){
