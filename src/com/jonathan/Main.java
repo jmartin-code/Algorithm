@@ -96,6 +96,23 @@ public class Main {
             System.out.println(iter.next());
         }
 
+        //Linked Stack
+        System.out.println("\n----------------- Linked Stack -------------------");
+        ListData Jose = new ListData("Jose", "Apple", 123);
+        ListData Pepe = new ListData("Pepe", "Apple", 225);
+        ListData Tony = new ListData("Tony", "Apple", 89);
+        ListData Maria = new ListData("Maria", "Apple", 99);
+
+        LinkedStack stack = new LinkedStack();
+
+        stack.push(Jose);
+        stack.push(Pepe);
+        stack.push(Tony);
+        stack.push(Maria);
+        stack.printStack();
+
+        System.out.println("Pop: " + stack.pop());
+        System.out.println("new first item: " + stack.peek());
 
 
 

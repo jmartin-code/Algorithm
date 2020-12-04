@@ -1,6 +1,8 @@
 Java Algorithm Notes
 
--Insertion, bubble and selection sorts are all quadratic. O(n pow(2))
+-Insertion: grab element in the array and compare to other elements until it finds the correct place to insert it. Time complexity O(n pow(2))
+-bubble sort: compare every two elements of the array an swap/sort lowest to largest. Then repeat. Time complexity quadratic O(n pow(2))
+-Selection sort: compare one element with the rest of the elements. If any of the rest of the element is larger, swap. Then repeat. Time complexity quadratic O(n pow(2))
 -Merge sort: divide the array into 2 multiple times until each array element is by itself. Then sort and merge elements.
 -Quick Sort: Use a pivot element and divide the array based on the pivot value. Items lower than pivot go to left and
 elements more than pivot go right
@@ -12,4 +14,6 @@ elements more than pivot go right
 -Linked list: Each value has a reference of the next item in the list. first item in the lis the the head. No sinchronized
 Linked list require more memory due to link attribute
 
--Stacks:
+-Stacks: abstract data, last in first out, push to add to top, pop to remove from top, peek see top item
+time complexity is constant for the commands listed above. But the time complexity will be dependent on the implementation
+stack function similar to linked list singly.
