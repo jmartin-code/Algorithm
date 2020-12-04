@@ -12,7 +12,8 @@ public class JDKSort {
     public void JDKsort(){
         Arrays.parallelSort(arr, 0, 10);
 
-        System.out.println("------------JDK Sort-------------");
+        System.out.println("------------JDK Sort-------------" +
+                "");
         for(int i=0; i<arr.length; i++) {
             System.out.print(arr[i] + ", ");
         }

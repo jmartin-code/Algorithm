@@ -7,4 +7,7 @@ elements more than pivot go right
 -Counting sort: make assumption about the data. go through the array and count how many values of each there are.
 -Radix Sort: This algo makes assumption about the data being sorted.
 -Java JDK: The JDK has an arrays class that contain sorting methods to sort arrays.
-
+-Vector: only use vector when you need synchronization
+-Arraylist: this is not synchronized
+-Linked list: Each value has a reference of the next item in the list. first item in the lis the the head. No sinchronized
+Linked list require more memory due to link attribute
