@@ -11,3 +11,5 @@ elements more than pivot go right
 -Arraylist: this is not synchronized
 -Linked list: Each value has a reference of the next item in the list. first item in the lis the the head. No sinchronized
 Linked list require more memory due to link attribute
+
+-Stacks:
