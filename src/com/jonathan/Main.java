@@ -114,10 +114,11 @@ public class Main {
         System.out.println("Pop: " + stack.pop());
         System.out.println("new first item: " + stack.peek());
 
-
-
-
-
+        //Palindrome using stacks----------
+        Palindrome palindrome = new Palindrome();
+        System.out.println(palindrome.checkForPalindrome("I did, did I"));
+        System.out.println(palindrome.checkForPalindrome("abccba"));
+        System.out.println(palindrome.checkForPalindrome("Hello"));
     }
 }
 
