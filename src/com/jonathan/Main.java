@@ -119,6 +119,29 @@ public class Main {
         System.out.println(palindrome.checkForPalindrome("I did, did I"));
         System.out.println(palindrome.checkForPalindrome("abccba"));
         System.out.println(palindrome.checkForPalindrome("Hello"));
+
+        //Queue----------
+        ListData jose = new ListData("Jose", "Smith", 123);
+        ListData pedro = new ListData("Pedro", "Smith", 158);
+        ListData luis = new ListData("Luis", "Smith", 199);
+
+        //Create queue
+        Queue queue = new Queue(10);
+        //add employees to the queue
+        queue.add(jose);
+        queue.add(pedro);
+        queue.add(luis);
+        //Print then remove then print again
+        //to show that queue is first in first out FIFO
+        queue.printQueue();
+        System.out.println("---------------------");
+        queue.remove();
+        queue.printQueue();
+
+        //Use the pick method to see the employee in the front
+        System.out.println("peek---------------------");
+        System.out.println(queue.peek());
+
     }
 }
 

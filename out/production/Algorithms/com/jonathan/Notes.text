@@ -14,6 +14,9 @@ elements more than pivot go right
 -Linked list: Each value has a reference of the next item in the list. first item in the lis the the head. No sinchronized
 Linked list require more memory due to link attribute
 
--Stacks: abstract data, last in first out, push to add to top, pop to remove from top, peek see top item
+-Stacks: abstract data, LIFO last in first out, push to add to top, pop to remove from top, peek see top item
 time complexity is constant for the commands listed above. But the time complexity will be dependent on the implementation
 stack function similar to linked list singly.
+
+-Queues: Abstract data type, FIFO first in first out, add item end of queue, remove item from front.
+
