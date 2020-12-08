@@ -124,17 +124,21 @@ public class Main {
         ListData jose = new ListData("Jose", "Smith", 123);
         ListData pedro = new ListData("Pedro", "Smith", 158);
         ListData luis = new ListData("Luis", "Smith", 199);
+        ListData ramon = new ListData("Ramon", "Smith", 187);
+        ListData antony = new ListData("Antony", "Smith", 896);
 
         //Create queue
-        Queue queue = new Queue(10);
+        Queue queue = new Queue(5);
         //add employees to the queue
         queue.add(jose);
         queue.add(pedro);
         queue.add(luis);
+        queue.add(antony);
+        queue.add(ramon);
         //Print then remove then print again
         //to show that queue is first in first out FIFO
         queue.printQueue();
-        System.out.println("---------------------");
+        System.out.println("Remove---------------------");
         queue.remove();
         queue.printQueue();
 

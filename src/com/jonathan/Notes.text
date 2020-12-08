@@ -19,4 +19,9 @@ time complexity is constant for the commands listed above. But the time complexi
 stack function similar to linked list singly.
 
 -Queues: Abstract data type, FIFO first in first out, add item end of queue, remove item from front.
+JDK has a queue interface that can be used. JDK offers a couple of method such as add, remove, peek, etc...
+array blocking queue is a type of queue that has a limit that cannot be changed.
+
+Hashtable: abstract data type, consist of key value pairs, maps, keys.
+use linear probing to check if value key pair is already in the hashtable to avoid collisions.
 

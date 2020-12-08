@@ -16,8 +16,9 @@ public class Queue {
     public void add(ListData employee){
         //check the size of the queue is full
         // and double the size if more space is needed
-        //implement circular queue
+        //implementing circular queue
         if(size() == queue.length-1){
+            System.out.println("------resizing the array-------");
             ListData[] newArr = new ListData[2 * queue.length];
 
             //save the back pointer position
