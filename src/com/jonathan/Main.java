@@ -1,5 +1,6 @@
 package com.jonathan;
 
+import java.sql.SQLOutput;
 import java.util.*;
 
 public class Main {
@@ -146,6 +147,19 @@ public class Main {
         System.out.println("peek---------------------");
         System.out.println(queue.peek());
 
+        //Hashmap
+        System.out.println("\nHasmap----------------------------------");
+        Hash hashmap = new Hash();
+        LinkedList<ListData> employees = new LinkedList<>();
+        employees.add(new ListData("Jose", "Smith", 123));
+        employees.add(new ListData("Pedro", "Smith", 158));
+        employees.add(new ListData("Luis", "Smith", 199));
+        employees.add(new ListData("Ramon", "Smith", 187));
+        employees.add(new ListData("Antony", "Smith", 896));
+        employees.add(new ListData("Ramon", "Smith", 187));
+        employees.add(new ListData("Antony", "Smith", 896));
+
+        hashmap.iter(employees);
     }
 }
 

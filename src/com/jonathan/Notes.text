@@ -26,7 +26,7 @@ Hashtable/Map: abstract data type, consist of key value pairs, maps keys to valu
 use linear probing to check if value key pair is already in the hashtable to avoid collisions.
 
 Bucket Sort: Uses hashing, make assumption about the data like radix and counting sort.
-it can perform linear time.
+it can perform in linear time.
 
 
 
